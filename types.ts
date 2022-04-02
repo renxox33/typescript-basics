@@ -22,9 +22,9 @@ a = "Kael";
 // b = a; not gonna work since b is a string and a is of type unknown, 
 //additional type check is required to make this work
 
-if(typeof a === "string")
+if(typeof a === "string"){
     b = a;
-console.log(b);
+}
 
 let generateError: (errorMessage: string, errorCode: number) => never = (message, code) => {
     throw { message, code };
