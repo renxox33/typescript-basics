@@ -12,7 +12,7 @@ planItinerary = (destination) => {
     console.log(`Planning itinerary for ${destination}`);
 }
 
-planItinerary("Taiwan");
+planItinerary("Seoul");
 
 let a: unknown;
 let b: string;
